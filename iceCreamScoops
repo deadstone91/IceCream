@@ -37,7 +37,7 @@ int main(double cost[])
 	{
 		cout << "how many scoops would you like of " << flavours[iceCream - 1] << "?\n";
 		cin >> howMany;
-		total = cost[(iceCream - 1)] * howMany;
+		total = cost[(iceCream - 1)] * howMany; //this is where the exception is thrown up
 		cout << "the total cost for your scoops is " << fixed << setprecision(2) << total;
 	}
 	else if (scoops == "n")
